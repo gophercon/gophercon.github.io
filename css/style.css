@@ -43,7 +43,7 @@ img, object, embed, video {max-width: 100%;}
 body {
 	background:#676336;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size:13px;
+	font-size:15px;
 	font-weight:normal;
 	color:#414041;
 	padding:0px;
@@ -76,7 +76,7 @@ body {
 	
 .navigation li a {
 	display:inline-block;
-	font-size:20px;
+	font-size:16px;
 	font-weight:700;
 	color:#fff;
 	text-align:center;
@@ -150,7 +150,7 @@ a.banner_nav {
 a.banner_nav strong {
 	display:block;
 	font-weight:700;
-	font-size:39px;
+	font-size:30px;
 	color:#433100;
 	padding:13px 0 20px;
 	}
@@ -200,7 +200,7 @@ a.banner_nav p {
 	}
 	
 .news_cont h2 {
-	font-size:28px;
+	font-size:16px;
 	font-weight:700;
 	color:#efab00;
 	background:#260700;
@@ -222,7 +222,7 @@ a.banner_nav p {
 	
 .news {
 	background:#fff;
-	padding:33px 32px 33px 39px;
+  padding: 50px 15px;
 	}
 	
 .news_update {
@@ -411,14 +411,14 @@ a.banner_nav p {
 	}
 	
 .cont_main h2 {
-	font-size:67px;
-	font-weight:700;
+	font-size:35px;
+	font-weight:bold;
 	color:#401800;
 	background:#cb6d00;
 	border-radius:30px;
 	border:6px solid #260700;
 	display:inline-block;
-	padding:25px 70px 22px 37px;
+	padding:25px 35px 22px 37px;
 	margin:4px;
 	position:relative;
 	line-height:34px;
@@ -581,4 +581,13 @@ a.banner_nav p {
     line-height: normal;
     padding: 8px 6px 0px;
     text-indent: 25px;
-	}
+}
+
+.blog .post {
+  margin: 25px 15px;
+}
+
+.posts li span, .posts li a, .post .meta {
+  font-size: 18px;
+  font-weight: bold;
+}

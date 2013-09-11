@@ -1,9 +1,13 @@
 ---
-layout: default
+layout: nosponsors
+heading: Blog
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="blog">
+  <h3>{{ page.title }}</h3>
+  <div class="clear"></div>
 
-<div class="post">
-{{ content }}
+  <div class="post">
+  <p class="meta">{{ page.date | date_to_long_string }}</p>
+  {{ content }}
+  </div>
 </div>
