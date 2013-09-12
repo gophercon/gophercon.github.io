@@ -2,13 +2,17 @@
 layout: default
 heading: Blog
 ---
-<div class="row">
-  <div class="large-12 columns blog">
-    <h3>{{ page.title }}</h3>
+<div class="blog row">
+  <div class="large-10 columns blog">
+    <div class="title">
+      <h3>{{ page.title }}</h3>
+      <p class="date"><i class="icon-calendar"></i>&nbsp;{{ page.date | date_to_long_string }}</p>
+    </div>
+
     <div class="clear"></div>
     <p>{{ content }}</p>
-    <div class="post">
-    <p class="meta">{{ page.date | date_to_long_string }}</p>
-    </div>
+  </div>
+  <div class="large-2 columns">
+  {% include sponsor_column.html %}	
   </div>
 </div>

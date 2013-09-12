@@ -99,6 +99,15 @@ h2 {
   margin-left: 25px;
 }
 
+/* Sponsor Column */
+.sponsors-column .sponsor {
+  margin: auto;
+}
+
+.sponsors-column h4, .sponsors-column h5 {
+  text-align: center;
+}
+
 /* Register */
 #register {
   border-top: 10px solid #260700;
@@ -150,6 +159,12 @@ ul.announcements a {
   font-size: 1.2em;
 }
 
-ul.announcements .date {
+.date {
   font-size: .8em;
+}
+
+/* Blog */
+.blog {
+  padding: 25px;
+  text-align: justify;
 }
