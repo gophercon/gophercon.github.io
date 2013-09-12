@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "A New Look for GopherCon"
 date:   2013-09-11 14:08:09
-categories: jekyll update
+categories: site update
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
