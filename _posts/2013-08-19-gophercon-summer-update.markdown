@@ -5,8 +5,6 @@ date:   2013-08-19 02:09:55
 categories: update
 ---
 
-# Greetings Gophers!
-
 We haven't sent an update in a few months so we are stepping away from our vim sessions for a minute to let you know what's going on in the world of GopherCon.  We have some great updates to share with you!
 
 - We've got our first confirmed sponsor : Iron.io  While we have at least half a dozen other companies in various stages of getting sponsorship packages put together, Iron.io was the first to get the deal done.  We're proud to be sponsored by such a great company -- especially one that uses Go so effectively to service their customers.  If you bump into Ken or Travis, give them a high five for believing in the Go community!

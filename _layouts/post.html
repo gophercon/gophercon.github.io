@@ -3,7 +3,7 @@ layout: default
 heading: Blog
 ---
 <div class="blog row">
-  <div class="large-10 columns blog">
+  <div class="large-9 columns blog">
     <div class="title">
       <h3>{{ page.title }}</h3>
       <p class="date"><i class="icon-calendar"></i>&nbsp;{{ page.date | date_to_long_string }}</p>
@@ -12,7 +12,7 @@ heading: Blog
     <div class="clear"></div>
     <p>{{ content }}</p>
   </div>
-  <div class="large-2 columns">
-  {% include sponsor_column.html %}	
+  <div class="large-3 columns">
+    {% include sponsor_column.html %}	
   </div>
 </div>

@@ -1,6 +1,14 @@
 /* Change tob-bar color*/ 
-.top-bar, .contain-to-grid, .top-bar-section ul li.active > a, .top-bar-section li a:not(.button) {
+.top-bar, .contain-to-grid, .top-bar-section u li a {
   background-color: #260700;
+}
+
+.top-bar-section ul li > a.button.success {
+  background-color: #acd038 !important;
+}
+
+.top-bar-section ul li > a.button {
+  background-color: #87b9db !important;
 }
 
 /* Change background color */
@@ -33,11 +41,11 @@ h2 {
 #main-header .row {
   background: #dbd0a3 url(..//img/navbg.png) no-repeat 60px 10px;
   height: 625px;
-  border-bottom: 10px solid #260700;
+  border-bottom: 5px solid #260700;
 }
 
 #main-header .header-logo {
-  margin-left: 155px;
+  margin-left: 122px;
 }
 
 #main-header .header-cfp {
@@ -46,7 +54,7 @@ h2 {
 }
 
 #main-header .columns {
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 #main-header .header-link {
@@ -74,44 +82,57 @@ h2 {
 #main-header .header-link strong,  #main-header .header-link small{
   color: #433100;
   display: block;
+  padding-top: 5px;
 }
 
 #main-header .header-link strong {
   font-size: 30px;
-  padding-top: 10px;
 }
 
-/* Sponsor Row */
-.sponsor-row {
+/* Sponsors Row */
+.sponsors-row {
   padding-bottom: 25px;
-  border-top: 10px solid #260700;
+  border-top: 5px solid #260700;
 }
 
-.sponsor-row h2 {
-  margin-bottom: 25px !important;
+.sponsors-row h2 {
+  margin-bottom: .3em !important;
 }
 
-.sponsor-row .sponsors {
-  margin-left: 50px;
+.sponsors-row .sponsors {
+  margin-left: 5em;
+  margin-top: 5em;
 }
 
-.sponsor-row .sponsors .sponsor {
-  margin-left: 25px;
+.sponsors-row .sponsors .sponsor {
+  height: 60px;
+  width: 150px;
+
+  margin: .7em;
 }
 
-/* Sponsor Column */
-.sponsors-column .sponsor {
+.sponsors-row .sponsors .sponsor img.ironio {
+  margin-top: -10px;
+}
+
+/* Sponsors Column */
+#sponsors-column {
   margin: auto;
+  text-align: center;
 }
 
-.sponsors-column h4, .sponsors-column h5 {
-  text-align: center;
+#sponsors-column h5 {
+  margin-top: 2em;
+}
+
+#sponsors-column img {
+  margin-top: .6em;
 }
 
 /* Register */
 #register {
-  border-top: 10px solid #260700;
-  border-bottom: 10px solid #260700;
+  border-top: 5px solid #260700;
+  border-bottom: 5px solid #260700;
   padding: 25px;
   background: #dbd0a3;
   text-align: center;
@@ -119,8 +140,7 @@ h2 {
 
 /* Social */
 #social {
-  background: #FFF url(/img/gophers.png) no-repeat right bottom;
-  height: 250px;
+  height: 225px;
   padding-top: 25px;
 }
 
@@ -136,6 +156,10 @@ h2 {
 
 #social ul a i {
   font-size: 1.8em;
+}
+
+#social .gophers {
+  margin-top: 45px;
 }
 
 /* Footer */
