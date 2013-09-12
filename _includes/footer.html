@@ -1,31 +1,36 @@
-<div class="footer_outer">
-  <div class="container">
-      <div class="footer">
-          <ul>
-              <li><a href="/home">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/speakers">Speakers</a></li>
-                <li><a href="/sponsors">Venue</a></li>
-                <li><a href="/sponsors">Schedule</a></li>
-                <li class="no_bg"><a href="/sponsors">Sponsors</a></li>
-                <li class="no_bg margin"><a href="mailto:gophercon@gopheracademy.com" class="padding"><img src="/img/mail_icon.png" alt=""></a></li>
-                <li class="no_bg"><a href="https://www.facebook.com/gophercon" class="padding"><img src="/img/facebook_icon.png" alt=""></a></li>
-                <li class="no_bg"><a href="https://twitter.com/gophercon" class="padding"><img src="/img/twitter_icon.png" alt=""></a></li>
-            </ul>
-        </div>
-        
-        <div class="footer_text">
-          <ul>
-              <li>© GopherCon 2013.  All rights reserved. Conditions of use</li>
-          </ul>
-        </div>
+<div class="contain-to-grid">
+  <div class="row footer">
+    <div class="small-4 columns">
+      <p>&copy; 2013 Gopher Academy, LLC. All Rights Reserved.</p>
     </div>
+    <div class="small-8 columns">
+      <ul class="inline-list right">
+        <li class="divider"></li>
+        <li class="active"><a href="/">Home</a></li>
+        <li class="divider"></li>
+        <li><a href="/about">About</a></li>
+        <li class="divider"></li>
+        <li><a href="/speakers">Speakers</a></li>
+        <li class="divider"></li>
+        <li><a href="/venue">Venue</a></li>
+        <li class="divider"></li>
+        <li><a href="/schedule">Schedule</a></li>
+        <li class="divider"></li>
+        <li><a href="/sponsors">Sponsors</a></li>
+        <li class="divider"></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+  </div>
 </div>
-<script type="text/javascript">
-	$(window).load(function() {
-		$('#click').click(function(){
-		$('.menu_space').slideToggle();
-		return false;
-	});
-});
+
+<script>
+document.write('<script src=' +
+('__proto__' in {} ? '/js/vendor/zepto' : '/js/vendor/jquery') +
+'.js><\/script>')
+</script>
+
+<script src="/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
 </script>

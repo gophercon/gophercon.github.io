@@ -1,0 +1,155 @@
+/* Change tob-bar color*/ 
+.top-bar, .contain-to-grid, .top-bar-section ul li.active > a, .top-bar-section li a:not(.button) {
+  background-color: #260700;
+}
+
+/* Change background color */
+body, html {
+  background-color: #676336;
+}
+
+.row {
+  background-color: #FFF;
+}
+
+/* Header */
+h2 {
+  color: #222;
+  text-shadow: 0 2px 3px #555;
+  -webkit-text-stroke: 1px white; 
+  font-weight: bold;
+  font-size: 44px;
+  margin-bottom: 0;
+}
+
+.contain-to-grid .top-bar {
+    margin-bottom: 0;
+}
+
+#main-header {
+  margin-top: 0;
+}
+
+#main-header .row {
+  background: #dbd0a3 url(..//img/navbg.png) no-repeat 60px 10px;
+  height: 625px;
+  border-bottom: 10px solid #260700;
+}
+
+#main-header .header-logo {
+  margin-left: 155px;
+}
+
+#main-header .header-cfp {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+#main-header .columns {
+  margin-top: 25px;
+}
+
+#main-header .header-link {
+  margin: 25px 0 0 25px;
+  padding: 0px 35px;
+  text-align: center;
+}
+
+#main-header .about {
+  margin-left: 30px;
+}
+
+#main-header .speakers {
+  margin-left: 15px;
+}
+
+#main-header .venue {
+  margin-left: 10px;
+}
+
+#main-header .sponsors {
+  margin-left: 15px;
+}
+
+#main-header .header-link strong,  #main-header .header-link small{
+  color: #433100;
+  display: block;
+}
+
+#main-header .header-link strong {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+/* Sponsor Row */
+.sponsor-row {
+  padding-bottom: 25px;
+  border-top: 10px solid #260700;
+}
+
+.sponsor-row h2 {
+  margin-bottom: 25px !important;
+}
+
+.sponsor-row .sponsors {
+  margin-left: 50px;
+}
+
+.sponsor-row .sponsors .sponsor {
+  margin-left: 25px;
+}
+
+/* Register */
+#register {
+  border-top: 10px solid #260700;
+  border-bottom: 10px solid #260700;
+  padding: 25px;
+  background: #dbd0a3;
+  text-align: center;
+}
+
+/* Social */
+#social {
+  background: #FFF url(/img/gophers.png) no-repeat right bottom;
+  height: 250px;
+  padding-top: 25px;
+}
+
+#social ul {
+  list-style-type: none;
+}
+
+#social ul a {
+  color: #222;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+#social ul a i {
+  font-size: 1.8em;
+}
+
+/* Footer */
+.footer {
+  background-color: #260700;
+  color: #FFF;
+  padding: 15px 0px;
+}
+
+.footer a, .footer p {
+  font-size: 0.77em;
+  color: #FFF;
+}
+
+/* Announcements */
+ul.announcements {
+  list-style-type: none;
+}
+
+ul.announcements a {
+  font-size: 1.2em;
+}
+
+ul.announcements .date {
+  font-size: .8em;
+}

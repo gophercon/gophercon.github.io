@@ -1,95 +1,17 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-{% include head.html %}	
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  {% include head.html %}	
+</head>
 <body>
   {% include topnav.html %}	
-    <div class="container">
-    	<div class="banner_bg">
-        	<div class="banner">
-            	<div class="logo"><a href="/"><img src="/img/logo.png" alt=""></a></div>
-        		<div class="sponsor_img"><img src="/img/img2.png" alt=""></div>
-        	<div class="height"></div>
-            	<a href="/about" class="banner_nav pull-left">
-                    <img src="/img/img3.png" alt="">
-                    <strong>About</strong>
-                    <small>
-                        Short comment about the<br>
-                        this page contents.
-                    </small>
-                </a>
-                
-                <a href="/speakers" class="banner_nav pull-left marginleft">
-                    <img src="/img/img4.png" alt="">
-                    <strong><span>Speakers</span></strong>
-                    <small>
-                        <span>
-                        	Short comment about the<br>
-                        	this page contents.
-                        </span>
-                    </small>
-                </a>
-                
-                <a href="/venue" class="banner_nav pull-left marginleft">
-                    <img src="/img/img5.png" alt="">
-                    <strong><em>Venue</em></strong>
-                    <small>
-                        <em>
-                        	Short comment about the<br>
-                        	this page contents.
-                        </em>
-                    </small>
-                </a>
-                
-                <a href="/sponsors" class="banner_nav pull-left marginleft">
-                    <img src="/img/img6.png" alt="">
-                    <strong><p>Sponsors</p></strong>
-                    <small>
-                        <p>
-                        	Short comment about the<br>
-                        	this page contents.
-                        </p>
-                    </small>
-                </a>
-                	<div class="clear"></div>
-       		</div>
-        </div>
-    
-    
-    	<div class="news_cont">
-          <h2>Announcements</h2>
-      </div>
-    
-    	<div class="news">
-        <div class="news_update">
-            {{ content }}
-        </div>
-      </div>
-    
-    
-    	<div class="news_cont">
-        	<div class="right">
-            	<h2>SPONSORS</h2>
-            </div>
-        </div>
-    
-    	<div class="sponsors">
-        	<div class="row">
-                <div class="span4 pull-left">
-                    <div class="sponsors_image"><img src="/img/img8.png" alt=""></div>
-                </div>
-                
-                <div class="span7 pull-right">
-                </div>
-            </div>
-      </div>
-    
-    
-    	<div class="news_cont"></div>
-    
-        <div class="register_link">
-          {% include register_buttom.html %}	
-        </div>
-    </div>
+  {% include banner.html %}	
+  {{ content }}
+  {% include sponsor_row.html %}	
+  {% include register_button.html %}	
+  {% include social.html %}	
   {% include footer.html %}	
 </body>
 </html>
