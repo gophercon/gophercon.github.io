@@ -127,8 +127,8 @@ body, html {
   margin: .7em;
 }
 
-.sponsors-row .sponsors .sponsor img.ironio {
-  margin-top: -0.6em;
+.sponsors-row .sponsors .sponsor.ironio {
+  margin-top: 0.0em;
 }
 
 /* Sponsors Column */

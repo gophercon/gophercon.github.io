@@ -17,6 +17,4 @@ We're working hard behind the scenes to make this an awesome opportunity to lear
 
 Those are the updates for now.  Check our website shortly for the new design.  We can't wait to see you in Denver in 2014!
 
->Brian Ketelsen, Erik St. Martin, David Cheney
->
->GopherCon Strike Team
+*Brian Ketelsen, Erik St. Martin, David Cheney - GopherCon Strike Team*
