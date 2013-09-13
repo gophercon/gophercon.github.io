@@ -2,12 +2,12 @@
   <div class="avatar large-2 columns">
     <img src="/img/speakers/{{ include.avatar }}" alt="{{ include.name }}" />
 
-    <a href="https://twitter.com/{{ include.twitter }}">
+    <a class="twitter" href="https://twitter.com/{{ include.twitter }}">
       <i class="icon-twitter"></i>&nbsp;@{{ include.twitter }}
     </a>
   </div>
   <div class="large-10 columns">
-    <h5>{{ include.name }} <span class="employer">({{ include.employer }})</span></h5>
+    <h5>{{ include.name }} <span class="employer">{{ include.employer }}</span></h5>
     
     <p>{{ include.bio }}</p>
   </div>

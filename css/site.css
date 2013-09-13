@@ -218,6 +218,10 @@ ul.announcements a {
   font-size: .93em;
 }
 
+.speaker .twitter {
+  font-size: .9em;
+}
+
 .speaker .employer {
   font-size: .8em;
   color: #999;
