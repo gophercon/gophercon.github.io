@@ -213,6 +213,33 @@ ul.announcements a {
   font-size: .8em;
 }
 
+/* Speakers */
+.speaker {
+  font-size: .93em;
+}
+
+.speaker .employer {
+  font-size: .8em;
+  color: #999;
+  padding-left: 1em;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: .2em;
+}
+
+.speaker .avatar {
+  text-align: center;
+}
+
+.speaker .avatar img {
+  border: .4em solid #fff;
+  -webkit-box-shadow: 0px 2px 4px #999;
+  -moz-box-shadow: 0px 2px 4px #999;
+  box-shadow: 0px 2px 4px #999;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
 /* Assorted */
 .content .row {
   padding: 1.1em;
