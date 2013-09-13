@@ -2,3 +2,189 @@
 layout: default
 title: GopherCon 2014 - Schedule
 ---
+<div class="row talks">
+  <div class="large-9 columns">
+    <div class="row">
+      <h3>Schedule</h3>
+      <div class="large-12 columns">
+        <p>The formal schedule will not be finalized until all speaker slots are filled. The currently accepted talks are:</p>
+      </div>
+
+      <!-- Rob Pike -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/rob_pike.jpeg" alt="Rob Pike" />
+
+          <a class="twitter" href="https://twitter.com/rob_pike">
+            <i class="icon-twitter"></i>&nbsp;@rob_pike
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>Keynote <span class="speaker-name">Rob Pike - Google Inc</span></h5>
+          
+          <p>Keynote Presentation</p>
+        </div>
+      </div>
+
+      <!-- Andrew Gerrand -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/adg.jpeg" alt="Andrew Gerrand" />
+
+          <a class="twitter" href="https://twitter.com/enneff">
+            <i class="icon-twitter"></i>&nbsp;@enneff
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>Keynote <span class="speaker-name">Andrew Gerrand - Engineer at Google</span></h5>
+          
+          <p>Keynote Presentation</p>
+        </div>
+      </div>
+
+      <!-- Derek Collison -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/dcollison.jpeg" alt="Derek Collison" />
+
+          <a class="twitter" href="https://twitter.com/derekcollison">
+            <i class="icon-twitter"></i>&nbsp;@derekcollison
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>Building High-Performance Systems in Go - What’s New and Best Practices <span class="speaker-name">Derek Collison - Founder, CEO at Apcera</span></h5>
+          
+          <p>Go is the language of the cloud. Here’s why we chose Go and how we’re using it to develop high-performance systems.</p>
+        </div>
+      </div>
+
+      <!-- Solomon Hykes -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/shykes.jpeg" alt="Solomon Hykes" />
+
+          <a class="twitter" href="https://twitter.com/docker">
+            <i class="icon-twitter"></i>&nbsp;@docker
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>Making Docker GO: Why One of the Fastest Growing Open Source Projects Is Based on Go <span class="speaker-name">Solomon Hykes - Founder, CTO at dotCloud</span></h5>
+          
+          
+          <p>Docker is one of the faster growing open source project. Less than 5 months after launching, the project had 60K+ users, over 6000 github stars, over 100 derivative projects, and over 150 significant contributors from around the world. Docker has been integrated into a number of key projects (Chef, Puppet, Jenkins, Travis, Vagrant, OpenStack), and has been deployed at some of the largest web properties, stirring hype and controversy in the open-source community in the process. But what the hell does a “container engine” do, and why is everyone so excited?</p>
+          <p>In this presentation, Solomon Hykes, the original author of Docker, will explain the philosophy and history behind Docker, show examples of the projects built by the Docker ecosystem, and paint a picture of how Docker can change the way we think about software distribution and deployment. He will also speak about the rationale for writing Docker in Go, and the impact that has has on the project growth. In the presentation, he will show a number of examples, including how to build a open source playground for Go.</p>
+        </div>
+      </div>
+
+      <!-- Mitchell Hashimoto -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/mitchellh.png" alt="Mitchell Hashimoto" />
+
+          <a class="twitter" href="https://twitter.com/mitchellh">
+            <i class="icon-twitter"></i>&nbsp;@mitchellh
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>Multi-Process Plugins Using Go RPC <span class="speaker-name">Mitchell Hashimoto - Founder at HashiCorp</span></h5>
+          
+          <p>Plugin systems are incredibly valuable for many reasons: they offer a place for experimentation, they keep the core software slim, and they allow users to augment the software in ways that may not be in line with the main development goals.</p>
+          <p>Without dynamic linking, however, Go cannot support a traditional plugin environment. But by using language features such as interfaces and Go’s powerful built-in RPC system, it is possible to build a powerful plugin system based upon multiple processes. This ultimately results in a much more stable, scalable, and flexible plugin system.</p>
+          <p>In this system, because plugins are multi-process, they don’t threaten the core stability of the application. The multi-process model lends itself well to concurrency as well, since each plugin can have its own concurrency model, and the core system can execute all plugins in parallel. Since communication is done over RPC, the plugins can actually be in other languages. In fact, plugins can even be across the network. We’ll show concrete examples of all these benefits.</p>
+          <p>In this talk, we present how to build a multi-process plugin system based on Go RPC that has been proven to be effective in production systems. This talk will show advanced concurrency and interface usage patterns to achieve these goals. It will highlight some of the pain points of this system in real world usage and how these are overcome.</p>
+        </div>
+      </div>
+
+      <!-- Rob Miller -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/rmiller.jpeg" alt="Rob Miller" />
+
+          <a class="twitter" href="https://twitter.com/n0nsequitarian">
+            <i class="icon-twitter"></i>&nbsp;@n0nsequitarian
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>Data Snarfing with Go: A Heka Good Time <span class="speaker-name">Rob Miller - Senior Engineer at Mozilla</span></h5>
+          
+          <p><a href="https://github.com/mozilla-services/heka">Heka</a> is a high performance data collection and processing tool built by Mozilla's Services team. This talk will start with a brief overview of Heka the product, describing what it is and how it works. This will be followed by an overview of Heka the project, addressing questions such as why Go was chosen, and how that choice has worked out for our developers, administrators, and users.</p>
+        </div>
+      </div>
+
+      <!-- Peter Bourgon -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/pbourgon.jpeg" alt="Peter Bourgon" />
+
+          <a class="twitter" href="https://twitter.com/peterbourgon">
+            <i class="icon-twitter"></i>&nbsp;@peterbourgon
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>Best practices for production environments <span class="speaker-name">Peter Bourgon - Engineer at SoundCloud</span></h5>
+          <p>Go is a simple language. Sometimes, that simplicity means that common, peripheral tasks are deferred to other tools to solve. This talk will explore some of the questions that we've asked ourselves at SoundCloud about writing, building, deploying, running, and maintaining Go code in a production environment, focusing on the areas where the Go ecosystem doesn't offer clear guidance. We also hope to provide at least a few answers :)</p>
+
+          <p>How do I...</p>
+          <ul>
+            <li>...manage my dependencies?</li>
+            <li>...build Go code in different environments?</li>
+            <li>...test Go code in different environments?</li>
+            <li>...deploy Go code to production?</li>
+            <li>...keep a clean (and sane) code ecosystem?</li> 
+            </ul>
+        </div>
+      </div>
+
+      <!-- Blake Mizerany -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/bmizerany.jpeg" alt="Blake Mizerany" />
+
+          <a class="twitter" href="https://twitter.com/bmizerany">
+            <i class="icon-twitter"></i>&nbsp;@bmizerany
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>Little known tricks used in Go's stdlib <span class="speaker-name">Blake Mizerany - Funemployed</span></h5>
+          
+          <p>Go's stdlib is filled with interesting solutions to fun problems. I will surface them for your amusement and also in hopes to give everyone a better understanding of Go's use of it's own simple, yet powerful features.</p>
+        </div>
+      </div>
+
+      <!-- William Kennedy -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/wkennedy.jpeg" alt="William Kennedy" />
+
+          <a class="twitter" href="https://twitter.com/GoingGoDotNet">
+            <i class="icon-twitter"></i>&nbsp;@GoingGoDotNet
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>Building an Analytics Engine using MongoDB and Go <span class="speaker-name">William Kennedy - Managing Partner at Ardan Studios</span></h5>
+          
+          <p>Big data and analytics is becoming incredibly important as information on people and their lives become more readily available. Companies are looking for ways to acquire, store and process personal information on their users to help provide intuitive experiences and sell products or services. Using Go and Mongo, you can build these analytic engines with all the flexibility, scalability and performance you need. In my talk I will show how you can leverage Go and MongoDB to load customer data and both public or personal offer feeds at runtime. Then using a simple Go based web tool and service, build rules to identify products and services your customers will want.</p>
+        </div>
+      </div>
+
+      <!-- Petar Maymounkov -->
+      <div class="row speaker">
+        <div class="avatar large-3 columns">
+          <img src="/img/speakers/pmaymounkov.jpeg" alt="Petar Maymounkov" />
+
+          <a class="twitter" href="https://twitter.com/maymounkov">
+            <i class="icon-twitter"></i>&nbsp;@maymounkov
+          </a>
+        </div>
+        <div class="large-9 columns">
+          <h5>The Go Circuit: Towards elastic computation with no failures <span class="speaker-name">Petar Maymounkov</span></h5>
+          
+          <p>We discuss the Go Circuit project and set it in the context of an inevitable and oncoming shift in the development and runtime stacks of the Internet age. We argue that the programming language is the right place to abstract access to a hardware clusters as a "Single-System Image". On the way, we appeal to the success of Erlang in the Telecom industry and discuss why it has not yet inspired Internet-age counterparts. Somewhat unlike Erlang, where the distributed operating system OTP is below the language, we assert that the distributed OS should be built above and using the language. We conclude with an important high-level observation that single desktop machines are qualitatively identical and only quantitatively different than distributed hardware clusters, in terms of the semantics of their behavior in the presence of failures.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="large-3 columns">
+    {% include sponsor_column.html %}	
+  </div>
+</div>

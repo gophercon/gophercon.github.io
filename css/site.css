@@ -232,6 +232,12 @@ ul.announcements a {
   padding-top: .2em;
 }
 
+.speaker .speaker-name {
+  display: block;
+  font-weight: normal;
+  font-size: .9em;
+}
+
 .speaker .avatar {
   text-align: center;
 }
@@ -247,6 +253,10 @@ ul.announcements a {
 
 .speaker p {
   margin-bottom: .5em;
+}
+
+.talks h5 {
+  font-size: .95em;
 }
 
 /* Assorted */
