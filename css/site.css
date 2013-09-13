@@ -306,3 +306,20 @@ i.icon-large.left {
 i.icon-large.right {
   margin-left: .4em;
 }
+
+/* Venue */
+
+.venue-details {
+  font-size: .7em;
+}
+
+.venue-details p {
+  margin: 0;
+}
+
+.venue-details .section {
+  margin-bottom: .8em;
+}
+
+.airport {
+}
