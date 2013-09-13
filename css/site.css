@@ -1,6 +1,6 @@
 /* Change tob-bar color*/ 
-.top-bar, .contain-to-grid, .top-bar-section u li a {
-  background-color: #260700;
+.top-bar, .contain-to-grid, #main-nav li a:not(.button), #register-links li {
+  background-color: #260700 !important;
 }
 
 .top-bar-section ul li > a.button.success {
