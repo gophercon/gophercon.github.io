@@ -218,9 +218,9 @@ ul.announcements a {
   font-size: .93em;
 }
 
-.speaker .twitter {
-  font-size: .9em;
+.speaker .avatar .twitter {
   display: block;
+  font-size: .9em;
 }
 
 .speaker .employer {
@@ -243,6 +243,10 @@ ul.announcements a {
   box-shadow: 0px 2px 4px #999;
   margin-top: .5em;
   margin-bottom: 1em;
+}
+
+.speaker p {
+  margin-bottom: .5em;
 }
 
 /* Assorted */
