@@ -21,13 +21,6 @@ body, html {
 }
 
 /* Banner */
-h2 {
-  color: #222;
-  font-weight: bold;
-  font-size: 3em;
-  margin-bottom: 0;
-}
-
 .contain-to-grid .top-bar {
     margin-bottom: 0;
 }
@@ -220,8 +213,60 @@ ul.announcements a {
   font-size: .8em;
 }
 
-/* Blog */
-.blog {
-  padding: 25px;
+/* Assorted */
+.content .row {
+  padding: 1.1em;
   text-align: justify;
+}
+
+#mailchimp h4 {
+  padding-left: 1em;
+}
+
+#mc_embed_signup {
+  border-left: .1em  solid #260700;
+  border-right: .1em  solid #260700;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.conference-dates {
+  text-align: center;
+}
+
+.conference-dates p, .contact p {
+  margin-bottom: 0;
+  font-size: .9em;
+}
+
+.conference-dates h2 {
+  color: #222;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+p img.left {
+  margin-right: 1.4em;
+}
+
+p img.right {
+  margin-left: 1.4em;
+}
+
+i.icon-large {
+  font-size: 5em;
+}
+
+i.icon-large.left {
+  margin-right: .4em;
+}
+
+i.icon-large.right {
+  margin-left: .4em;
 }

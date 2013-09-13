@@ -8,7 +8,17 @@
 <body>
   {% include topnav.html %}	
   {% include banner.html %}	
-  {{ content }}
+  <div class="row">
+    <div class="conference-dates large-12 columns">
+      <h2>April 24-26, 2014</h2>
+      <p><i class="icon-building"></i>&nbsp;Marriot Denver City Center</p>
+      <p><i class="icon-map-marker"></i>&nbsp;1701 California St Denver, CO 80202</p>
+      <hr />
+    </div>
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
   {% include register_button.html %}	
   {% include social.html %}	
   {% include footer.html %}	
