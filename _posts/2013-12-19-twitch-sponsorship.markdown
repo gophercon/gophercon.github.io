@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GitHub Sponsorship"
+title:  "Twitch Sponsorship"
 date:   2013-11-21 09:00:00
 categories: update sponsors
 ---
