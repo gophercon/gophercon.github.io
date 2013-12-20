@@ -35,4 +35,4 @@ Conference staff will be happy to help participants contact hotel/venue security
 We expect participants to follow these rules at all conference venues and conference-related social events.  We think people should follow these rules outside conference activities too!
 
 
-[This code of conduct was borrowed from the folks at JSConf, with permission.  We think they did a very nice job of laying out the expecations of conference participants and appreciate the fact that they let us use it, nearly verbatim.]
+[This code of conduct was borrowed from the folks at JSConf, with permission.  We think they did a very nice job of laying out the expectations of conference participants and appreciate the fact that they let us use it, nearly verbatim.]
