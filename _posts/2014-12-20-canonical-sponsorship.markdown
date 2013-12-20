@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Canonical Sponsorship"
-date:   2013-12-19 09:00:00
+date:   2013-12-20 09:00:00
 categories: update sponsors
 ---
 
