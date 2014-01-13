@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
-gem 'gh-pages'
+gem 'github-pages'
 #gem 'yui-compressor'

@@ -118,17 +118,10 @@ body, html {
   margin-bottom: .3em !important;
 }
 
-.sponsors-row .sponsors {
-  margin-left: 5em;
-  margin-top: 5em;
-}
-
-.sponsors-row .sponsors .sponsor {
-  margin: .7em;
-}
-
-.sponsors-row .sponsors .sponsor.ironio {
-  margin-top: 0.0em;
+.sponsors-row .sponsor {
+  text-align: center;
+  height: 80px;
+  width: 165px;
 }
 
 /* Sponsors Column */
