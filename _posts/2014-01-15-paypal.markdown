@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Paypal Sponsorship"
+date:   2014-01-15 09:00:00
+categories: update sponsors
+---
+
+Today we're excited to announce that Paypal has signed up to be our first Gold sponsor.
+
+>The PayPal Developer program is the face of technology innovation at PayPal. Using open source foundations in their technology stacks, PayPal is constructing new breeds of identity systems, API standards, and payment platforms to support the next generation of disruptive technology.
+
+Thank you to everyone at Paypal for your support and sponsorship of GopherCon 2014!

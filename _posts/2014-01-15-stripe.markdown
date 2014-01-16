@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Stripe Sponsorship"
+date:   2014-01-15 09:00:00
+categories: update sponsors
+---
+
+Today we're excited to announce that Stripe has signed up to be a Bronze sponsor of GopherCon 2014.
+
+>Stripe is the best way to accept payments online. Stripe aims to expand internet commerce by making it easy to process transactions and manage an online business.
+
+Stripe also purchased 5(!) tickets in support of our GopherCon 2014 Scholarship for women.  We really appreciate that they share our vision for GopherCon.
+
+Thank you to everyone at Stripe for your support and sponsorship of GopherCon 2014!

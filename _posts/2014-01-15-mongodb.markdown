@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "MongoDB Sponsorship"
+date:   2014-01-15 09:00:00
+categories: update sponsors
+---
+
+Today we're excited to announce that MongoDB has signed up to be a Bronze sponsor of GopherCon 2014.
+
+>MongoDB (from humongous) is reinventing data management and powering big data as the leading NoSQL database. Designed for how we build and run applications today, MongoDB empowers organizations to be more agile and scalable. It enables new types of applications, better customer experience, faster time to market, and lower costs. To learn more, please visit www.mongodb.com.
+
+Thank you to everyone at MongoDB for your support and sponsorship of GopherCon 2014!
