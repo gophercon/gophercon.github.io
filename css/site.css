@@ -225,14 +225,43 @@ ul.announcements a {
   padding-top: .2em;
 }
 
-.speaker .speaker-name {
+.speaker {
   display: block;
   font-weight: normal;
   font-size: .9em;
 }
 
+.speaker .subtitle {
+  display: block;
+  font-weight: normal;
+  font-size: 1.0em;
+  font-style: italic;
+}
+
+.speaker .speaker-time {
+  display: block;
+  font-weight: normal;
+  font-size: .9em;
+  padding-bottom: .5em;
+}
+
+.speaker .title {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 .speaker .avatar {
   text-align: center;
+}
+
+.speaker img {
+	width: 118px;
+	height: 118px;
+}
+
+.speaker ul {
+	margin-left: 20px
 }
 
 .speaker .avatar img {
