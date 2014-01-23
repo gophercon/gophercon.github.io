@@ -1,0 +1,16 @@
+---
+layout: nobanner
+title: GopherCon 2014 - Posts
+---
+<div class="row">
+  <div class="large-9 columns">
+  {% for post in site.posts %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p class="date"><i class="icon-calendar"></i>&nbsp;{{ post.date | date_to_long_string }}</p>
+    <p> {{ post.excerpt }} </p>
+  {% endfor %}
+  </div>
+  <div class="large-3 columns">
+    {% include sponsor_column.html %}	
+  </div>
+</div>
