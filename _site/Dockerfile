@@ -9,6 +9,7 @@ RUN mkdir /etc/nginx/ssl
 ADD default /etc/nginx/sites-available/default
 
 ADD _site/ /var/www/
+RUN chown -R www-data:www-data /var/www
 
 EXPOSE 80
 
