@@ -5,13 +5,15 @@ RUN apt-get update
 RUN apt-get -y install nginx
 
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
+RUN echo "listen 8080;" >> /etc/nginx/nginx.conf
+
 RUN mkdir /etc/nginx/ssl
 ADD default /etc/nginx/sites-available/default
 
 ADD _site/ /var/www/
 RUN chown -R www-data:www-data /var/www
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["nginx"]
 
